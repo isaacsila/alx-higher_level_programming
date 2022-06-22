@@ -1,5 +1,6 @@
 # alx-higher_level_programming
-This is for the python lovers
+This is for the python lovers.
+
 *Tasks*
 
 0. Run Python file
