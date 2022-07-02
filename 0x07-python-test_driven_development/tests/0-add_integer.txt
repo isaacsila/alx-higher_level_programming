@@ -1,0 +1,30 @@
+The ``0_add_integer`` module
+==========================
+
+Using ``add_integer``
+---------------------
+
+Testing the function from the module:
+	>>> add_integer = __import__("0-add_integer").add_integer
+
+Testing for module docstring:
+	>>> m = __import__("0-add_integer").__doc__
+	>>> len(m) > 1
+	True
+
+Testing for function docstring:
+	>>> f = __import__("0-add_integer").add_integer.__doc__
+         >>> len(f) > 1
+         True
+
+Testing for regular addition
+    >>> add_integer(1,2)
+    3
+
+Testing for addition with negative numbers
+    >>> add_integer(100, -2)
+    98
+
+Testing for addition with default numbers:
+    >>> add_integer(2)
+    100
